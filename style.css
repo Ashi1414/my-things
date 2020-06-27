@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-style:italic;
+}
+.as1{
+    height: 100%;
+    width: 100%;
+    background-image: url("ash.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 300px;
+    height: 600px;
+    position: relative;
+    margin: 1% auto;
+    background:transparent;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 20px;
+    
+}
+.button-box{
+    width: 180px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px yellow;
+    border-radius: 30px;
+}
+.as2{
+    padding: 10px 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#as2{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,rgb(26, 13, 13), rgb(19, 187, 4));
+    border-radius: 30px;
+    transition: .5s;
+}
+.icons{
+    margin: 30px auto;
+    text-align: center;
+}
+.icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 2px o yellow;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 2px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid yellow;
+    outline: none;
+    background: transparent;
+    color:whitesmoke;
+    font-size: 20px;
+}
+.submit-btn{
+    width: 60%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,rgb(26, 13, 13), rgb(19, 187, 4));
+    border: 0;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 0 0 20px 9px yellow;
+}
+.check-box{
+    margin: 30px 10px 35px 0;
+    border-radius: 50px;
+    
+}
+span{
+color:whitesmoke;
+font-size: 15px;
+bottom: 68px;
+position: absolute;
+}
+#login{
+    left: 15px;
+}
+#reg{
+    left: 450px;
+}
